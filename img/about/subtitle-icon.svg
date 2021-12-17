@@ -1,0 +1,29 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="11" y="11" width="28" height="28" rx="3" stroke="#F5333F" stroke-width="2"/>
+<path d="M25 5V12" stroke="#F5333F" stroke-width="2"/>
+<circle cx="25" cy="3" r="2" stroke="#F5333F" stroke-width="2"/>
+<path d="M33 8V12" stroke="#F5333F" stroke-width="2"/>
+<circle cx="33" cy="6" r="2" stroke="#F5333F" stroke-width="2"/>
+<path d="M17 8V12" stroke="#F5333F" stroke-width="2"/>
+<circle cx="17" cy="6" r="2" stroke="#F5333F" stroke-width="2"/>
+<path d="M25 45V38" stroke="#F5333F" stroke-width="2"/>
+<circle cx="25" cy="47" r="2" transform="rotate(-180 25 47)" stroke="#F5333F" stroke-width="2"/>
+<path d="M17 42V38" stroke="#F5333F" stroke-width="2"/>
+<circle cx="17" cy="44" r="2" transform="rotate(-180 17 44)" stroke="#F5333F" stroke-width="2"/>
+<path d="M33 42V38" stroke="#F5333F" stroke-width="2"/>
+<circle cx="33" cy="44" r="2" transform="rotate(-180 33 44)" stroke="#F5333F" stroke-width="2"/>
+<path d="M45 25L38 25" stroke="#F5333F" stroke-width="2"/>
+<circle cx="47" cy="25" r="2" transform="rotate(90 47 25)" stroke="#F5333F" stroke-width="2"/>
+<path d="M42 33L38 33" stroke="#F5333F" stroke-width="2"/>
+<circle cx="44" cy="33" r="2" transform="rotate(90 44 33)" stroke="#F5333F" stroke-width="2"/>
+<path d="M42 17L38 17" stroke="#F5333F" stroke-width="2"/>
+<circle cx="44" cy="17" r="2" transform="rotate(90 44 17)" stroke="#F5333F" stroke-width="2"/>
+<path d="M5 25L12 25" stroke="#F5333F" stroke-width="2"/>
+<circle r="2" transform="matrix(4.37114e-08 1 1 -4.37114e-08 3 25)" stroke="#F5333F" stroke-width="2"/>
+<path d="M8 33L12 33" stroke="#F5333F" stroke-width="2"/>
+<circle r="2" transform="matrix(4.37114e-08 1 1 -4.37114e-08 6 33)" stroke="#F5333F" stroke-width="2"/>
+<path d="M8 17L12 17" stroke="#F5333F" stroke-width="2"/>
+<circle r="2" transform="matrix(4.37114e-08 1 1 -4.37114e-08 6 17)" stroke="#F5333F" stroke-width="2"/>
+<path d="M24.7679 27.408H19.1679L18.0639 30H15.9199L20.9599 18.8H23.0079L28.0639 30H25.8879L24.7679 27.408ZM24.0799 25.776L21.9679 20.88L19.8719 25.776H24.0799Z" fill="#F5333F"/>
+<path d="M29.4883 18.8H31.5683V30H29.4883V18.8Z" fill="#F5333F"/>
+</svg>

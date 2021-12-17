@@ -95,6 +95,9 @@ h6 {
 body {
   color: #fff;
   background: #0F1526;
+  -webkit-transition: color 0.6s ease 0s, background 0.6s ease 0s;
+  -o-transition: color 0.6s ease 0s, background 0.6s ease 0s;
+  transition: color 0.6s ease 0s, background 0.6s ease 0s;
 }
 
 body._light {
@@ -171,6 +174,9 @@ body._light {
   width: 100%;
   z-index: 50;
   background: #0f152680;
+  -webkit-transition: background 0.6s ease 0s;
+  -o-transition: background 0.6s ease 0s;
+  transition: background 0.6s ease 0s;
 }
 
 ._light .header {
@@ -321,6 +327,11 @@ body._light {
   transition: color 0.3s ease 0s;
 }
 
+.language-switch__item._language-change {
+  font-weight: 600;
+  color: #fff;
+}
+
 .language-switch__item:hover {
   color: #fff;
 }
@@ -376,6 +387,9 @@ body._light {
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#04002F));
   background: -o-linear-gradient(top, #000000 0%, #04002F 100%);
   background: linear-gradient(180deg, #000000 0%, #04002F 100%);
+  -webkit-transition: background 0.6s ease 0s;
+  -o-transition: background 0.6s ease 0s;
+  transition: background 0.6s ease 0s;
   border-radius: 60px 60px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -483,6 +497,35 @@ body._light {
   height: 389px;
   background: url("../img/about/about-decor.png") no-repeat;
   z-index: 1;
+}
+
+._light .page-about::before {
+  -webkit-animation: bg-move 1s ease 0.1s 1 forwards;
+          animation: bg-move 1s ease 0.1s 1 forwards;
+}
+
+@-webkit-keyframes bg-move {
+  0% {
+    left: -1692px;
+    top: -100px;
+  }
+
+  100% {
+    top: 0px;
+    left: -1592px;
+  }
+}
+
+@keyframes bg-move {
+  0% {
+    left: -1692px;
+    top: -100px;
+  }
+
+  100% {
+    top: 0px;
+    left: -1592px;
+  }
 }
 
 .page-about__container {

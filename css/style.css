@@ -168,12 +168,8 @@ body._light {
 }
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position: relative;
   z-index: 50;
-  background: #0f152680;
   -webkit-transition: background 0.6s ease 0s;
   -o-transition: background 0.6s ease 0s;
   transition: background 0.6s ease 0s;
@@ -263,6 +259,9 @@ body._light {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 122%;
+  -webkit-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
 }
 
 .enter-button img {
@@ -491,7 +490,7 @@ body._light {
 .page-about::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -176px;
   left: -1592px;
   width: 2577px;
   height: 389px;
@@ -507,11 +506,11 @@ body._light {
 @-webkit-keyframes bg-move {
   0% {
     left: -1692px;
-    top: -100px;
+    top: -276px;
   }
 
   100% {
-    top: 0px;
+    top: -176px;
     left: -1592px;
   }
 }
@@ -519,11 +518,11 @@ body._light {
 @keyframes bg-move {
   0% {
     left: -1692px;
-    top: -100px;
+    top: -276px;
   }
 
   100% {
-    top: 0px;
+    top: -176px;
     left: -1592px;
   }
 }
@@ -733,12 +732,6 @@ body._light {
   }
 }
 
-@media (min-width: 76.875em) {
-  .page-about {
-    padding-top: 8.5rem;
-  }
-}
-
 @media (min-width: 48em) {
   .page-about__main-title {
     font-size: 2rem;
@@ -864,10 +857,6 @@ body._light {
 
   .footer {
     padding-bottom: 2.5rem;
-  }
-
-  .page-about {
-    padding-top: 8.5rem;
   }
 
   .page-about__main-title {
@@ -1081,12 +1070,6 @@ body._light {
 
   .footer {
     padding-bottom: calc(2.5rem + 1.5 * (((100vw - 20rem)) / ((40))));
-  }
-}
-
-@media (min-width: 20em) and (max-width: 76.875em) {
-  .page-about {
-    padding-top: calc(8.5rem + 0 * (((100vw - 20rem)) / ((56.875))));
   }
 }
 
